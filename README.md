@@ -37,23 +37,23 @@ Objective of this level, is to ensure that we can deliver a quality solution usi
 * Proper access specifier must be mentioned, like member variables must be private, methods not invoked must be private/protected
 * Methods should not lengthy, rather split it into smaller methods appropriately
 
-Reference :
+#### Reference :
 
-Best Practices:
-https://www.khanacademy.org/computing/computer-programming/programming/writing-clean-code/e/quiz--clean-code
-https://www.codingdojo.com/blog/clean-code-techniques/
-http://www.garshol.priv.no/blog/105.html
-https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices
-https://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP
+##### Best Practices:
+* https://www.khanacademy.org/computing/computer-programming/programming/writing-clean-code/e/quiz--clean-code
+* https://www.codingdojo.com/blog/clean-code-techniques/
+* http://www.garshol.priv.no/blog/105.html
+* https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices
+* https://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP
 
-Source Code Management :
-git : https://www.atlassian.com/git/tutorials
+##### Source Code Management :
+* git : https://www.atlassian.com/git/tutorials
 
-Build Tool :
-dotnet CLI(C#) : http://www.tutorialsteacher.com/core/net-core-command-line-interface
-maven   (Java) : https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+##### Build Tool :
+* dotnet CLI(C#) : http://www.tutorialsteacher.com/core/net-core-command-line-interface
+* maven   (Java) : https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
-Unit Test :
-xUnit(C#)   : https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test
-JUnit(Java) : https://dzone.com/articles/junit-testing-part-i-setup-with-simple-example
+##### Unit Test :
+* xUnit(C#)   : https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test
+* JUnit(Java) : https://dzone.com/articles/junit-testing-part-i-setup-with-simple-example
 
