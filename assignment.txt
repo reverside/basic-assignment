@@ -1,5 +1,13 @@
 Develop a console based application which can take a file name and a sequence number as command line argument
-and should be able to generate sql file out of it as explained below.
+and should be able to generate sql file out of it. 
+
+Input file will contain customer data in one of the formats below and name of the input file should be <xyz>_<format>.txt
+Example : sample_1.txt, test_2.txt, abcd_3.txt 
+
+Output file should be generated at the same location as of the input file and file name should be same as the name of the input file but with .sql extension.
+Example: sample_1.txt -> sample_1.sql
+
+For each customer data from input file , it must generate a insert sql statement and append it the output file as explained below. And "id" value of the insert statement must start with the sequence number passed as argument and should keep incrementing for each new sql.
 
 Database Table : customers (id, first_name, last_name, gender, date_of_birth, marital_status)
 
