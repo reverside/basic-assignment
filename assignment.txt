@@ -22,17 +22,17 @@ Below are the same data for 2 customers, but with different formats, and the exp
 Expected output is same for all the 3 formats as same 2 customer data is used for all the 3 formats.
 
 File Format : 1 (sample_1.txt)
-==============================
+------------------------------
 Manmay Mohanty, M, 07/03/1983, Y
 Marike Fourie, F, 30/11/2001, N
 
 File Format : 2 (sample_2.txt)
-==============================
+------------------------------
 "MANMAY"|"MOHANTY"|"1983-03-07"|"Married"|"Male"
 "MARIKE"|"FOURIE"|"2001-11-30"|"Unmarried"|"Female"
 
 File Format : 3 (sample_3.txt)
-==============================
+------------------------------
 #
 name: manmay
 surname: mohanty
