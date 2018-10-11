@@ -1,0 +1,46 @@
+Develop a console based application which can take a file name and a sequence number as command line argument
+and should be able to generate sql file out of it as explained below.
+
+Database Table : customers (id, first_name, last_name, gender, date_of_birth, marital_status)
+
+Example : File Content
+
+File Type #1 
+
+Manmay Mohanty, M, 07/03/1983, Y
+Marike Fourie, F, 30/11/2001, N
+
+
+File Type #2
+
+"MANMAY"|"MOHANTY"|"1983-03-07"|"Married"|"Male"
+"MARIKE"|"FOURIE"|"2001-11-30"|"Unmarried"|"Female"
+
+File Type #3
+
+#
+name: manmay
+surname: mohanty
+dob: 07 Mar 1983
+married: yes
+gender: male
+#
+name: marike
+surname: fourie
+dob: 30 Nov 2001
+married: no
+gender: female
+#
+
+Input : <Your Application> sample.txt 400
+
+Output : sample.sql
+insert into customers(id, first_name, last_name, gender, date_of_birth, marital_status) values(400, 'Manmay', 'Mohanty', 'M', '07/03/1983', true);
+insert into customers(id, first_name, last_name, gender, date_of_birth, marital_status) values(401, 'Marike', 'Fourie', 'F', '30/11/2001', false);
+
+Note:
+Must user the sequence number from the command line argument to start generating sequence.
+Must store the sql file as the same name of the input file but with .sql extension
+
+
+
