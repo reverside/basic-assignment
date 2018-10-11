@@ -1,31 +1,36 @@
-Develop a console based application which can take a file name and a sequence number as command line argument
-and should be able to generate sql file out of it. 
+Problem Statement :
+I have a business and I have branches all over south africa. And  I receive data of new customers from the
+branches/offices in different formats. And I need those customer data to be inserted into my database table 
+called "customers" with columns id, first_name, last_name, gender, date_of_birth, marital_status. So I want
+you to develop a console based tool which can be used to generate necessary sqls out of those files to insert
+those data into database. I am not expecting the tool to execute the sqls into my database, rather just generate
+the insert statements into a file, so that I can exeute them in my database manually using a database tool. 
 
-Input file will contain customer data in one of the formats below and name of the input file should be <xyz>_<format>.txt
-Example : sample_1.txt, test_2.txt, abcd_3.txt 
+Develop a console based application, which can take a file name and a sequnece number as command line argument
+and should be able to generate a sql file out of it and the application should be executable from command prompt 
+as below, assuming that sample_1.txt is in the current directory.
+C#   -> Application.exe sample_1.txt 500
+Java -> java -jar application.jar sample_1.txt 500
 
-Output file should be generated at the same location as of the input file and file name should be same as the name of the input file but with .sql extension.
-Example: sample_1.txt -> sample_1.sql
+Input file will contain new customer data in one of the formats as described below and name of the input file should 
+be in the format <xyz>_<format>.txt Example : sample_1.txt, test_2.txt, abcd_3.txt 
 
-For each customer data from input file , it must generate a insert sql statement and append it the output file as explained below. And "id" value of the insert statement must start with the sequence number passed as argument and should keep incrementing for each new sql.
+Below are the same data for 2 customers, but with different formats, and the expected output sqls provided. 
+Expected output is same for all the 3 formats as same 2 customer data is used for all the 3 formats.
 
-Database Table : customers (id, first_name, last_name, gender, date_of_birth, marital_status)
-
-Example : File Content
-
-File Type #1 
-
+File Format : 1 (sample_1.txt)
+==============================
 Manmay Mohanty, M, 07/03/1983, Y
 Marike Fourie, F, 30/11/2001, N
 
 
-File Type #2
-
+File Format : 2 (sample_2.txt)
+==============================
 "MANMAY"|"MOHANTY"|"1983-03-07"|"Married"|"Male"
 "MARIKE"|"FOURIE"|"2001-11-30"|"Unmarried"|"Female"
 
-File Type #3
-
+File Format : 3 (sample_3.txt)
+==============================
 #
 name: manmay
 surname: mohanty
@@ -40,15 +45,24 @@ married: no
 gender: female
 #
 
-Input : <Your Application> sample.txt 400
+Input : <file_name>.txt 400
 
-Output : sample.sql
+Output : <file_name>.sql
 insert into customers(id, first_name, last_name, gender, date_of_birth, marital_status) values(400, 'Manmay', 'Mohanty', 'M', '07/03/1983', true);
 insert into customers(id, first_name, last_name, gender, date_of_birth, marital_status) values(401, 'Marike', 'Fourie', 'F', '30/11/2001', false);
 
 Note:
-Must user the sequence number from the command line argument to start generating sequence.
-Must store the sql file as the same name of the input file but with .sql extension
+Following rules must be followed to generate sql file :
+   - Generated sql file should be named same as the input file name, but with .sql extension (sample_1.txt -> sample_1.sql)
+   - Column "id" value should be start with the number provided as command line argument and should keep incrementing
+   - Column "first_name" & "last_name" should be capitalized 
+     (First Letter is in CAPITAL letter and rest of the characters should be in smallcase, 
+     irrespective of the format in the input file)
+   - Column "gender" value should be either M or F -> M for Male , F for Female
+   - Column "marital_status" value should be either true or false -> true if Married and false if Not Married
+   - Column "date_of_birth" value should be in the format dd/MM/yyyy (like 30/03/2018)
+    
+
 
 
 
