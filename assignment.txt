@@ -1,4 +1,5 @@
 Problem Statement :
+===================
 I have a business and I have branches all over south africa. And  I receive data of new customers from the
 branches/offices in different formats. And I need those customer data to be inserted into my database table 
 called "customers" with columns id, first_name, last_name, gender, date_of_birth, marital_status. So I want
@@ -6,6 +7,8 @@ you to develop a console based tool which can be used to generate necessary sqls
 those data into database. I am not expecting the tool to execute the sqls into my database, rather just generate
 the insert statements into a file, so that I can exeute them in my database manually using a database tool. 
 
+Requirement Details :
+=====================
 Develop a console based application, which can take a file name and a sequnece number as command line argument
 and should be able to generate a sql file out of it and the application should be executable from command prompt 
 as below, assuming that sample_1.txt is in the current directory.
@@ -22,7 +25,6 @@ File Format : 1 (sample_1.txt)
 ==============================
 Manmay Mohanty, M, 07/03/1983, Y
 Marike Fourie, F, 30/11/2001, N
-
 
 File Format : 2 (sample_2.txt)
 ==============================
@@ -54,10 +56,9 @@ insert into customers(id, first_name, last_name, gender, date_of_birth, marital_
 Note:
 Following rules must be followed to generate sql file :
    - Generated sql file should be named same as the input file name, but with .sql extension (sample_1.txt -> sample_1.sql)
-   - Column "id" value should be start with the number provided as command line argument and should keep incrementing
-   - Column "first_name" & "last_name" should be capitalized 
-     (First Letter is in CAPITAL letter and rest of the characters should be in smallcase, 
-     irrespective of the format in the input file)
+   - Column "id" value should be start with the number provided as command line argument and should keep incrementing for next
+   - Column "first_name" & "last_name" should be capitalized (First Letter is in CAPITAL letter and rest of the characters    
+     should be in smallcase,irrespective of the format in the input file)
    - Column "gender" value should be either M or F -> M for Male , F for Female
    - Column "marital_status" value should be either true or false -> true if Married and false if Not Married
    - Column "date_of_birth" value should be in the format dd/MM/yyyy (like 30/03/2018)
