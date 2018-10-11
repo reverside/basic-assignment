@@ -62,6 +62,8 @@ Following rules must be followed to generate sql file :
    - Column "gender" value should be either M or F -> M for Male , F for Female
    - Column "marital_status" value should be either true or false -> true if Married and false if Not Married
    - Column "date_of_birth" value should be in the format dd/MM/yyyy (like 30/03/2018)
+   - If record from the input file is not in valid format or corrupted , those records should be skipped
+   - If any other error occured proper user friendly error message need to displayed on console and exit
     
 
 
