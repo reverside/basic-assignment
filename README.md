@@ -6,15 +6,15 @@ Since you are on this page, it means you have passed through previous 2 levels :
 * Language Fundamental
 
 #### Objective:
-Objective of this level, is to ensure that we can deliver a quality solution with a programming language using indutry standard tools and following standard practices. At this level, we assume that you know basic knowledge of programming and you understands one OOPS languages as mentioned below. So at this level, we will verify that you can apply all your learnings from last 2 levels using source code management tool (SCM) like git , build tool like maven/dotnet CLI and can write unit test using a standard unit test library like Junit/xUnit. At this level if you still don't know about them, then you must learn and get yourself comfortable with before working on the assignment.
+Objective of this level, is to ensure that you can solve a problem with a programming language using indutry standard tools and following standard practices. At this level, we assume that you have basic knowledge of programming and you understands OPPS concepts. So here, we will verify that you can apply all your learnings from last 2 levels with a source code management tool (SCM) like git , build tool like maven/dotnet CLI and can write unit test using a standard unit test library like Junit/xUnit. At this level if you still don't know about them, then you must learn and get yourself comfortable with before working on the assignment.
 
 #### Process:
 
-* You will get one week to complete the assignment with all the requirement as mentioned below. 
 * You will be evaluated over the assignment given, you will find the assignemnt in assignment.text file here.
-* Your score will based on your understanding over scm, build tool and unit testing practices
-* Standard practices, design practices and clean code practices followed will also impact will score
-* For every mistake or violation of the rule or bad practice you will get -1 point
+* You will get one week to complete the assignment with the tools & practices as mentioned below. 
+* Your score will based on your understanding over scm, build tool and unit testing practices.
+* Standard practices, design practices and clean code practices followed will also impact will score.
+* For every mistake or violation of the rule or bad practice or defect/bug you will get -1 point
 * You must score zero to clear this level  and you may get max 2 chances to clear this level.
 
 #### Tools & Technology :
