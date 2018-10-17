@@ -16,6 +16,7 @@ Objective of this level, is to ensure that you can solve a problem with a progra
 * Standard practices, design practices and clean code practices followed will also impact will score.
 * For every mistake or violation of the rule or bad practice or defect/bug you will get -1 point
 * You must score zero to clear this level  and you may get max 2 chances to clear this level.
+* You may be asked questions to evalaute your understanding over the tools & practices.
 
 #### Tools & Technology :
 
