@@ -49,7 +49,7 @@ Above are some basic practices which must be followed. But you must learn more d
 #### Frequnty Asked Questions:
 Following are some frequently asked questions, which you may be asked to you during evaluation and it will also make you think to go more detail on the tools.
 
-##### SCM
+##### SCM (Git)
 * What is SCM & Why we need a SCM ?
 * What are some commonly used scm products in market ?
 * What is git and how it is different from other SCM products in market ?
@@ -82,8 +82,19 @@ Following are some frequently asked questions, which you may be asked to you dur
 * How to know maven is installed on a machine ?
 * What is setting.xml and where it typically stays ?
 * Where you can find your local repsitory ?
+* Explain maven project structure
 
-##### Unit Testing
+##### Build Tool (dotnet CLI)
+* What is dotnet CLI ?
+* How to install dotnet CLI ?
+* How to find cli is installed on a machine or not ?
+* Most commonly used cli commands and its meaning 
+* How to add a new library to your project using cli ?
+* Depedency management using cli 
+* How to create a new project and it's test module ?
+* Explain standard CLI project structure 
+
+##### Unit Testing (JUnit/xUnit)
 * What is unit testing ?
 * What is typical unit test module structure suggested by your build tool ?
 * How to write a unit test ?
@@ -93,10 +104,9 @@ Following are some frequently asked questions, which you may be asked to you dur
 * How to ignore a test ?
 * Explain some of the assert methos available in your unit test lib
 * How many minimal tests you should write for  a method ?
-* What is Test Driven Development ?
-* What is mocking ?
+* What is Test Driven Development (TDD)?
+* What is mocking and how to mock in unit testing ?
 * Why do you need mocking while writing unit tests ?
-* How you can mock ?
 * What is difference between unit test and integration test ?
 * What is unit test coverage and how to calculate it ?
 
