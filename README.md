@@ -28,7 +28,7 @@ Objective of this level, is to ensure that we can deliver a quality solution usi
 * You must have a test module for unit testing as prescibed by the build tool. You must use the mentined test libraries for your unit tests. Each public method in a class containing logic should have corresponding unit tests to cover all scenarios. You may skip unit tests for DTO classes, which generally contains getters and setter for its properties. Both positive and negative scenarios must be covered as a part of your unit tests.
 
 ###### NB:
-Above are some basic rules which must be followed. But you must learn detail about them and read upon standard practices & clean code to apply in your project. And you must know the minimal basics and best practices with the scm, build tool and unit testing.
+Above are some basic rules which must be followed. But you must learn more detail about them and read upon standard practices & clean code to apply in your project. And you must know the minimal basics and apply best practices in your project with all the above tools and technologies mentioned.
 
 
 #### Reference :
