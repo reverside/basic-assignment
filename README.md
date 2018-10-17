@@ -65,9 +65,8 @@ Above are some basic rules which must be followed. But you must learn more detai
 * https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices
 * https://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP
 
-### Best of Luck
-
 #### Frequnty Asked Questions:
+Following are some frequently asked questions, which you may be asked to you during evaluation and it will also make you think to go more detail on the tools.
 
 ##### SCM
 * What is SCM & Why we need a SCM ?
