@@ -117,7 +117,9 @@ Following are some frequently asked questions, which you may be asked to you dur
 #### Reference :
 
 ##### Source Code Management :
-* git : https://www.atlassian.com/git/tutorials
+###### git : 
+* https://www.atlassian.com/git/tutorials
+* https://www.youtube.com/watch?v=Y9XZQO1n_7c
 
 ##### Build Tool :
 ###### dotnet CLI(C#) : 
