@@ -17,6 +17,7 @@ Objective of this level, is to ensure that you can solve a problem with a progra
 * For every mistake or violation of the rule or bad practice or defect/bug you will get -1 point
 * You must score zero to clear this level  and you may get max 2 chances to clear this level.
 * You may be asked questions to evalaute your understanding over the tools & practices.
+* Reviewer may build your project on his/her machine and may run your application with different data file.
 
 #### Tools & Technology :
 
