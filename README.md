@@ -1,7 +1,7 @@
 # Basic Assignment
 
 #### Objective:
-Objective of this level, is to ensure that we can deliver a quality solution using a programming language following standard practices.
+Objective of this level, is to ensure that we can deliver a quality solution using a programming language using indutry standard toos and following standard practices. At this level, we assume that you know basic programming and you are good at one of the OOPS languages mentioned below. So at this level, we will verify that you can apply all your learnings from last 2 levels and you are comfortable with source code management (SCM), build tool and unit testing in your prefered platform. At this level if you still don't know about them, then you must learn and get yourself comfortable with them while working with the assignment.
 
 #### Tools & Technology :
 
