@@ -1,38 +1,41 @@
 Problem Statement :
 ===================
-I have a business and I have branches all over south africa. And  I receive data of new customers from the
-branches/offices in different formats. And I need those customer data to be inserted into my database table 
-called "customers" with columns id, first_name, last_name, gender, date_of_birth, marital_status. So I want
-you to develop a console based tool which can be used to generate necessary sqls out of those files to insert
-those data into database. I am not expecting the tool to execute the sqls into my database, rather just generate
-the insert statements into a file, so that I can exeute them in my database manually using a database tool. 
+I have a business with branches all over south africa. And  I receive data of new customers from the branches/offices 
+every week. Currently, I have branches at Pretoria, Johannesburg, Capetown. And they send new customer data as a file
+through email in differenet format. 
+
+I need those customer data to be inserted into my database table called "CUSTOMERS" with columns like id, first_name, last_name, gender, date_of_birth, marital_status. So I want you to develop a console based tool which can be used to 
+generate necessary sqls out of a file to insert the data into database. 
+
+I am not expecting the tool to execute the sqls into my database, rather just generate the insert statements into a file, so that I can exeute them in the database manually using any database tool. Please note that I may get new branch in future, which may send data in a new format, so with minimal change we should be able 
 
 Requirement Details :
 =====================
-Develop a console based application, which can take a file name and a sequnece number as command line argument
+Develop a console based application, which can take a file name and a sequence number as command line argument
 and should be able to generate a sql file out of it and the application should be executable from command prompt 
-as below, assuming that sample_1.txt is in the current directory.
-C#   -> Application.exe sample_1.txt 500
-Java -> java -jar application.jar sample_1.txt 500
+as below, assuming that sample_capetown.txt is in the current directory.
+
+C#   -> Application.exe sample_capetwon.txt 500
+Java -> java -jar application.jar sample_capetown.txt 500
 
 Input file will contain new customer data in one of the formats as described below and name of the input file should 
-be in the format <xyz>_<format>.txt Example : sample_1.txt, test_2.txt, abcd_3.txt 
+be in the format <any_text>_<branch_name>.txt Example : sample_capetown.txt, test_johannesburg.txt, abcd_pretoria.txt 
 
 Below are the same data for 2 customers, but with different formats, and the expected output sqls provided. 
 Expected output is same for all the 3 formats as same 2 customer data is used for all the 3 formats.
 
-File Format : 1 (sample_1.txt)
-------------------------------
+Capetown Data Format : 1 (sample_capetown.txt)
+----------------------------------------------
 Manmay Mohanty, M, 07/03/1983, Y
 Marike Fourie, F, 30/11/2001, N
 
-File Format : 2 (sample_2.txt)
-------------------------------
+Johannesburg Data Format : 2 (sample_johannesburg.txt)
+------------------------------------------------------
 "MANMAY"|"MOHANTY"|"1983-03-07"|"Married"|"Male"
 "MARIKE"|"FOURIE"|"2001-11-30"|"Unmarried"|"Female"
 
-File Format : 3 (sample_3.txt)
-------------------------------
+Pretoria Data Format : 3 (sample_pretoria.txt)
+----------------------------------------------
 #
 name: manmay
 surname: mohanty
@@ -55,15 +58,18 @@ insert into customers(id, first_name, last_name, gender, date_of_birth, marital_
 
 Note:
 Following rules must be followed to generate sql file :
-   - Generated sql file should be named same as the input file name, but with .sql extension (sample_1.txt -> sample_1.sql)
+   - Generated sql file should be named same as the input file name, but with .sql extension
    - Column "id" value should be start with the number provided as command line argument and should keep incrementing for next
    - Column "first_name" & "last_name" should be capitalized (First Letter is in CAPITAL letter and rest of the characters    
      should be in smallcase,irrespective of the format in the input file)
    - Column "gender" value should be either M or F -> M for Male , F for Female
    - Column "marital_status" value should be either true or false -> true if Married and false if Not Married
    - Column "date_of_birth" value should be in the format dd/MM/yyyy (like 30/03/2018)
-   - If record from the input file is not in valid format or corrupted , those records should be skipped
+   - If record from the input file is not in valid format or corrupted , those records should be skipped, but line must be
+     printed on console with ERROR like ERROR: <line text>
    - If any other error occured proper user friendly error message need to displayed on console and exit
+   - File name should not be case sentitive and if file not found propert error message should be displayed before exit
+   - File name is not as expected or branch name not found /unknown proper error message must be displayed before exit
     
 
 
