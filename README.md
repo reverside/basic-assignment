@@ -14,8 +14,8 @@ Objective of this level, is to ensure that we can deliver a quality solution wit
 * You will be evaluated over the assignment given, you will find the assignemnt in assignment.text file here.
 * Your score will based on your understanding over scm, build tool and unit testing practices
 * Standard practices, design practices and clean code practices followed will also impact will score
-* For every mistake or violation of the rule or bad practice you will get -1 score
-* you must score zero to clear this level  and you may get max 2 chances to clear this level.
+* For every mistake or violation of the rule or bad practice you will get -1 point
+* You must score zero to clear this level  and you may get max 2 chances to clear this level.
 
 #### Tools & Technology :
 
@@ -66,3 +66,58 @@ Above are some basic rules which must be followed. But you must learn more detai
 * https://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP
 
 ### Best of Luck
+
+#### Frequnty Asked Questions:
+
+##### SCM
+* What is SCM & Why we need a SCM ?
+* What are some commonly used scm products in market ?
+* What is git and how it is different from other SCM products in market ?
+* Explain git architecture 
+* What are the few commonly used git commands and explain them
+* What is the difference between git and github ?
+* What is the difference between git commit and push ?
+* How to install a git client ?
+* How to know if git client is installed on a machine or not ?
+* What is cloning ?
+* How to enable git to an existing folder and how you link it to am existing remote repository ?
+* Difference between git pull , push and fetch
+* How to know the current git branch ?
+* How to switch branches ?
+* How to create a new branch locally ?
+* What is a tag and how to create a tag ?
+* How to merge two branches ?
+* How to rollback all your changes if you dont want to commit ?
+* How to find which files you have chnagesand what you you have changes in a file before any commit ?
+* When and how often you must commit ?
+* When and how often you must push ?
+
+##### Build Tool (Maven)
+* What is maven ?
+* Why we need maven ?
+* Explain maven life cycle
+* Explain each phase of maven life cycle
+* What are some commonly used maven commands , exlain  ?
+* How to install maven ?
+* How to know maven is installed on a machine ?
+* What is setting.xml and where it typically stays ?
+* Where you can find your local repsitory ?
+
+##### Unit Testing
+* What is unit testing ?
+* What is typical unit test module structure suggested by your build tool ?
+* How to write a unit test ?
+* How to run a unit test from cmd ?
+* How to run all tests from cmd?
+* How to skip tests during build?
+* How to ignore a test ?
+* Explain some of the assert methos available in your unit test lib
+* How many minimal tests you should write for  a method ?
+* What is Test Driven Development ?
+* What is mocking ?
+* Why do you need mocking while writing unit tests ?
+* How you can mock ?
+* What is difference between unit test and integration test ?
+* What is unit test coverage and how to calculate it ?
+
+
