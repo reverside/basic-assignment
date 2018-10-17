@@ -27,6 +27,10 @@ Objective of this level, is to ensure that we can deliver a quality solution usi
 * Don't all logic inside main method, rather keep main method just as an entry point to start your application. Don't keep all your logic in one class/method , rather design it with following OOPS concepts and Design Principles. Possible exception scenarios must be analyzed and handled appropriately. Methods should not lengthy, rather split it into smaller methods appropriately. 
 * You must have a test module for unit testing as prescibed by the build tool. You must use the mentined test libraries for your unit tests. Each public method in a class containing logic should have corresponding unit tests to cover all scenarios. You may skip unit tests for DTO classes, which generally contains getters and setter for its properties. Both positive and negative scenarios must be covered as a part of your unit tests.
 
+###### NB:
+Above are some basic rules which must be followed. But you must learn detail about them and read upon standard practices & clean code to apply in your project. And you must know the minimal basics and best practices with the scm, build tool and unit testing.
+
+
 #### Reference :
 
 ##### Source Code Management :
