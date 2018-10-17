@@ -1,14 +1,14 @@
 # Tools & Practices
 
-# Congratulations !!! 
+### Congratulations !!! 
 Since you are on this page, it means you have passed through previous 2 levels : 
 * Basic Programming 
 * Language Fundamental
 
-#### Objective:
+### Objective:
 Objective of this level, is to ensure that we can deliver a quality solution with a programming language using indutry standard tools and following standard practices. At this level, we assume that you know basic knowledge of programming and you understands one OOPS languages as mentioned below. So at this level, we will verify that you can apply all your learnings from last 2 levels using source code management tool (SCM) like git , build tool like maven/dotnet CLI and can write unit test using a standard unit test library like Junit/xUnit. At this level if you still don't know about them, then you must learn and get yourself comfortable with before working on the assignment.
 
-##### Process:
+#### Process:
 
 * You will get one week to complete the assignment with all the requirement as mentioned below. 
 * You will be evaluated over the assignment given, you will find the assignemnt in assignment.text file here.
@@ -65,4 +65,4 @@ Above are some basic rules which must be followed. But you must learn more detai
 * https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices
 * https://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP
 
-# Best of Luck
+### Best of Luck
