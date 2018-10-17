@@ -1,7 +1,7 @@
 # Tools & Practices
 
 ### Congratulations !!! 
-Since you are on this page, it means you have passed through previous 2 levels : 
+You are here, it means you have passed through the previous 2 levels : 
 * Basic Programming 
 * Language Fundamental
 
