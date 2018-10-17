@@ -83,6 +83,10 @@ Following are some frequently asked questions, which you may be asked to you dur
 * What is setting.xml and where it typically stays ?
 * Where you can find your local repsitory ?
 * Explain maven project structure
+* What is pom.xml and what it conatins ?
+* Difference between dependency and plugin ?
+* Using properties in maven pom
+* Using profiles with maven pom
 
 ##### Build Tool (dotnet CLI)
 * What is dotnet CLI ?
