@@ -43,28 +43,7 @@ Objective of this level, is to ensure that you can solve a problem with a progra
 * You must have a test module for unit testing as prescibed by the build tool. You must use the mentined test libraries for your unit tests. Each public method in a class containing logic should have corresponding unit tests to cover all scenarios. You may skip unit tests for DTO classes, which generally contains getters and setter for its properties. Both positive and negative scenarios must be covered as a part of your unit tests.
 
 ###### NB:
-Above are some basic rules which must be followed. But you must learn more detail about them and read upon standard practices & clean code to apply in your project. And you must know the minimal basics and apply best practices in your project with all the above tools and technologies mentioned.
-
-
-#### Reference :
-
-##### Source Code Management :
-* git : https://www.atlassian.com/git/tutorials
-
-##### Build Tool :
-* dotnet CLI(C#) : http://www.tutorialsteacher.com/core/net-core-command-line-interface
-* maven   (Java) : https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
-
-##### Unit Test :
-* xUnit(C#)   : https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test
-* JUnit(Java) : https://dzone.com/articles/junit-testing-part-i-setup-with-simple-example
-
-##### Best Practices:
-* https://www.khanacademy.org/computing/computer-programming/programming/writing-clean-code/e/quiz--clean-code
-* https://www.codingdojo.com/blog/clean-code-techniques/
-* http://www.garshol.priv.no/blog/105.html
-* https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices
-* https://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP
+Above are some basic practices which must be followed. But you must learn more detail about them as well as read upon standard practices & clean code to apply in your project. And you must know the fundametals of the tools and must apply best practices in your project using them.
 
 #### Frequnty Asked Questions:
 Following are some frequently asked questions, which you may be asked to you during evaluation and it will also make you think to go more detail on the tools.
@@ -120,4 +99,22 @@ Following are some frequently asked questions, which you may be asked to you dur
 * What is difference between unit test and integration test ?
 * What is unit test coverage and how to calculate it ?
 
+#### Reference :
 
+##### Source Code Management :
+* git : https://www.atlassian.com/git/tutorials
+
+##### Build Tool :
+* dotnet CLI(C#) : http://www.tutorialsteacher.com/core/net-core-command-line-interface
+* maven   (Java) : https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
+##### Unit Test :
+* xUnit(C#)   : https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test
+* JUnit(Java) : https://dzone.com/articles/junit-testing-part-i-setup-with-simple-example
+
+##### Best Practices:
+* https://www.khanacademy.org/computing/computer-programming/programming/writing-clean-code/e/quiz--clean-code
+* https://www.codingdojo.com/blog/clean-code-techniques/
+* http://www.garshol.priv.no/blog/105.html
+* https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices
+* https://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP
