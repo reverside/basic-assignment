@@ -117,7 +117,9 @@ Following are some frequently asked questions, which you may be asked to you dur
 
 ##### Build Tool :
 * dotnet CLI(C#) : http://www.tutorialsteacher.com/core/net-core-command-line-interface
-* maven   (Java) : https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+* maven   (Java) : 
+      ** https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+      ** https://www.youtube.com/watch?v=XulPrVct_xQ
 
 ##### Unit Test :
 * xUnit(C#)   : https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test
@@ -129,3 +131,5 @@ Following are some frequently asked questions, which you may be asked to you dur
 * http://www.garshol.priv.no/blog/105.html
 * https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices
 * https://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP
+* https://medium.com/mindorks/how-to-write-clean-code-lessons-learnt-from-the-clean-code-robert-c-martin-9ffc7aef870c
+
